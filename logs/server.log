@@ -3,9 +3,7 @@
 > vite
 
 
-  VITE v5.4.20  ready in 322 ms
+  VITE v5.4.20  ready in 342 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.25.221:3000/
-12:13:46 PM [vite] ✨ new dependencies optimized: lucide-react, @splinetool/react-spline
-12:13:46 PM [vite] ✨ optimized dependencies changed. reloading

@@ -5,9 +5,9 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const navItems = [
-    { label: 'Showroom', href: '#showcase' },
-    { label: 'Specs', href: '#specs' },
-    { label: 'Reserve', href: '#reserve' },
+    { label: 'Catalog', href: '#catalog' },
+    { label: 'How it works', href: '#how' },
+    { label: 'Contact', href: '#contact' },
   ];
 
   return (
@@ -18,7 +18,7 @@ export default function Navbar() {
             <span className="inline-flex h-9 w-9 items-center justify-center rounded-md bg-red-600/20 text-red-500 ring-1 ring-inset ring-red-500/30">
               <Car className="h-5 w-5" />
             </span>
-            <span className="font-semibold tracking-tight">Veloce Motors</span>
+            <span className="font-semibold tracking-tight">Veloce Rent</span>
           </a>
 
           <nav className="hidden md:flex items-center gap-8">
@@ -32,10 +32,10 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="#reserve"
+              href="#catalog"
               className="inline-flex items-center gap-2 rounded-full bg-red-600 px-4 py-2 text-sm font-medium text-white shadow-lg shadow-red-600/30 hover:bg-red-500 transition"
             >
-              Reserve Now
+              Book now
               <ArrowRight className="h-4 w-4" />
             </a>
           </nav>
@@ -64,11 +64,11 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="#reserve"
+              href="#catalog"
               className="mt-2 block rounded-md bg-red-600 px-3 py-2 text-center font-medium text-white hover:bg-red-500"
               onClick={() => setOpen(false)}
             >
-              Reserve Now
+              Book now
             </a>
           </div>
         </div>
